@@ -37,7 +37,7 @@ export default function Footer() {
                         </motion.div>
 
                         <div>
-                            <h2 className="text-gold font-rockybilly font-normal text-[12px] xs:text-[22px] tracking-[0.1em] xs:tracking-[0.2em] uppercase mb-2">Sanskriti  '26</h2>
+                            <h2 className="text-gold font-rockybilly font-normal text-[12px] xs:text-[22px] tracking-[0.1em] xs:tracking-[0.2em]  mb-2">Sanskriti  '26</h2>
                             <p className="text-secondary/40 text-[10px] font-advercase tracking-[0.3em] uppercase">#ArtBeyondAesthetics</p>
                         </div>
 
@@ -96,7 +96,6 @@ export default function Footer() {
                             rel="noopener noreferrer"
                             className="text-[10px] text-gold hover:text-white transition-colors uppercase font-bold tracking-[0.2em] underline underline-offset-8"
                         >
-                            Locate via Orbit
                         </a>
                     </div>
                 </div>
@@ -107,6 +106,7 @@ export default function Footer() {
                         &#169; Sanskriti  '26 Web Team | All Rights Reserved
                     </p>
                 </div>
+                
             </div>
         </footer>
     );

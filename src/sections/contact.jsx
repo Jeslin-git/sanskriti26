@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const ContactPage = () => {
     const contactPersons = [
-        { name: "Anirudh Hari V V (Convenor)", phone: "+917560858754" },
-        { name: "Jasim Muhammed (Convenor)", phone: "+918848927537" },
+        { name: "Adhwaith KP (Sanskriti Head)", phone: "+919383461487" },
         { name: "Farida Backer (Organizing Secretary)", phone: "+919037457464" },
-        { name: "Adhwaith KP (Sanskriti Head)", phone: "+919383461487" }
+        { name: "Anirudh Hari V V (Convenor)", phone: "+917560858754" },
+        { name: "Muhammed Jasim P T (Convenor)", phone: "+918848927537" }
     ];
 
     const socialMedia = [
@@ -64,7 +64,7 @@ const ContactPage = () => {
                                     transition={{ delay: index * 0.1 + 0.6 }}
                                     className="flex flex-col md:flex-row md:items-center justify-between border-b border-gold/5 pb-6 group"
                                 >
-                                    <p className="text-secondary/40 font-advercase font-bold uppercase tracking-[0.2em] group-hover:text-gold transition-all duration-500">
+                                    <p className="text-secondary/40 font-advercase font-bold uppercase tracking-[0.2em] group-hover:text-gold transition-all duration-500 !text-left">
                                         {person.name}
                                     </p>
                                     <a
@@ -80,7 +80,7 @@ const ContactPage = () => {
                         </div>
 
                         <div className="mt-auto">
-                            <h3 className="text-xs font-bold mb-8 text-secondary/30 uppercase tracking-[0.5em] font-barlow">Digital Resonance</h3>
+                            <h3 className="text-xs font-bold mb-8 text-secondary/30 uppercase tracking-[0.5em] font-barlow">Connect with us</h3>
                             <div className="flex items-center space-x-12">
                                 {socialMedia.map((social, index) => (
                                     <motion.a
